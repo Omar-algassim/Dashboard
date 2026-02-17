@@ -10,6 +10,7 @@ import {
   IconFolder,
   IconHelp,
   IconInnerShadowTop,
+  IconIroning,
   IconListDetails,
   IconReport,
   IconSearch,
@@ -33,14 +34,14 @@ import {
 
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
+    name: "omar algassim",
+    email: "omarelgassim@gmail.com",
     avatar: "/avatars/shadcn.jpg",
   },
   navMain: [
     {
       title: "Dashboard",
-      url: "#",
+      url: "/dashboard",
       icon: IconDashboard,
     },
     {
@@ -159,8 +160,8 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
               className="data-[slot=sidebar-menu-button]:!p-1.5"
             >
               <a href="#">
-                <IconInnerShadowTop className="!size-5" />
-                <span className="text-base font-semibold">Acme Inc.</span>
+                <IconIroning className="!size-5" />
+                <span className="text-base font-semibold">Test Dashboard</span>
               </a>
             </SidebarMenuButton>
           </SidebarMenuItem>
