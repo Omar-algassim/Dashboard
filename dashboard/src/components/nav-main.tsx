@@ -25,7 +25,7 @@ export function NavMain({
         <SidebarMenu>
           {items.map((item) => (
             <SidebarMenuItem key={item.title}>
-              <SidebarMenuButton isActive={path == item.title.toLocaleLowerCase()} tooltip={item.title}>
+              <SidebarMenuButton isActive={path == item.url} tooltip={item.title}>
                 {item.icon && <item.icon />}
                 <span>{item.title}</span>
               </SidebarMenuButton>
