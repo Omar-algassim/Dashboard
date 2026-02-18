@@ -10,7 +10,6 @@ import {
   IconFolder,
   IconHelp,
   IconIroning,
-  IconListDetails,
   IconReport,
   IconSearch,
   IconSettings,
